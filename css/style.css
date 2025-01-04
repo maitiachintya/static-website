@@ -1,0 +1,662 @@
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 50px 0 50px;
+}
+
+/* Header Section */
+.sec1 {
+  background-color: #e195f5;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+/* All social images icons contains this Header Section */
+.sec1 .socialicons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialicons a {
+  display: inline-block;
+}
+
+.socialicons a .insertlink {
+  font-size: 30px;
+  color: red;
+  font-weight: 700;
+  text-decoration: underline;
+  font-style: italic;
+  transition: all 0.5s ease-in-out;
+}
+
+.socialicons a .insertlink:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.socialicons .contactaddress {
+  display: flex;
+  height: 40px;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e195f5;
+}
+
+.contactaddress .googlemap a {
+  display: inline-block;
+}
+
+.contactaddress a .gmap {
+  font-size: 36px;
+  color: #000000;
+  transition: all 0.5s ease-in-out;
+}
+
+a .gmap:hover {
+  color: yellow;
+}
+
+.contactaddress .gmail a {
+  display: inline-block;
+}
+
+.contactaddress a .emailicon {
+  font-size: 36px;
+  color: #000000;
+  transition: all 0.5s ease-in-out;
+}
+
+a .emailicon:hover {
+  color: yellow;
+}
+
+/* NavBar Section */
+.nav-section {
+  padding: 3px 0 3px 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: rgb(252, 246, 246);
+}
+
+/* FontLogo contains this nav section */
+.nav-section .socialviewslogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialviewslogos a {
+  display: inline-block;
+}
+
+.socialviewslogos a img {
+  height: 100px;
+  width: 97px;
+  border-radius: 50px;
+}
+
+/* All list items contains here */
+.nav-section .nav-lists {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-lists {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-lists li {
+  list-style-type: none;
+}
+
+.nav-lists .last-list a {
+  font-size: 30px;
+  color: rgb(246, 5, 9);
+  transition: all 0.8 ease-in-out;
+}
+
+.nav-lists li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  padding-right: 34px;
+  font-weight: 800;
+  color: rgb(246, 5, 9);
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-lists li a:hover {
+  color: rgb(18, 15, 236);
+  text-decoration: underline;
+}
+
+/* Banner Section Part-1 */
+.scenariopic {
+  background-image: url(../images/scenario.jpg);
+  background-repeat: repeat-x;
+  background-size: 100%, 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 900px;
+}
+
+/* In Banner section we use here a welcome section where all parra text and button contains */
+.scenariopic .welcomesection {
+  background-color: transparent;
+  padding: 20px 0 20 px 0;
+  text-align: center;
+  height: 350px;
+  width: 990px;
+}
+
+.scenariopic .welcomepage {
+  font-size: 90px;
+  color: #05fde9;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
+
+.scenariopic .welcomepage-parra {
+  font-size: 30px;
+  color: rgb(244, 88, 10);
+  font-weight: 800;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.welcomesection .button-welcome {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-welcome a {
+  height: 50px;
+  width: 130px;
+  padding: 10px 0 10px 0;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: brown;
+  border-radius: 40px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.8s ease-in-out;
+}
+
+.button-welcome a:hover {
+  background-color: yellow;
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+/* Banner Section Part-2 */
+.sec-2 {
+  background-color: rgb(245, 147, 147);
+  height: 800px;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+.sec-2 .partsec2items {
+  padding: 75px 0 75px 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.partsec2items .card1 {
+  height: 600px;
+  border-width: 5px;
+  border-style: outset;
+  width: 420px;
+  border-color: blue;
+  background-color: #99d3b2;
+}
+
+.card1 a {
+  display: inline-block;
+}
+
+.card1 a img {
+  height: 50%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.card1 a img .card-image1 {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.card1 .card1-txt {
+  font-size: 50px;
+  color: rgb(241, 108, 175);
+  font-weight: bold;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.card1 .para-card1-txt {
+  text-align: center;
+  font-size: 30px;
+  padding: 2px;
+  color: orangered;
+}
+
+.card1 .button1-card1 {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1-card1 a {
+  height: 50px;
+  width: 120px;
+  padding: 10px 0 10px 0;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  border-radius: 40px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.8s ease-in-out;
+}
+
+.button1-card1 a:hover {
+  background-color: yellow;
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.partsec2items .card2 {
+  height: 600px;
+  width: 420px;
+  border-width: 3px;
+  border-color: blue;
+  background-color: #83be9c;
+}
+
+.card2 a {
+  display: inline-block;
+}
+
+.card2 a img {
+  height: 50%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.card2 a img .card-image2 {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.card2 .card2-txt {
+  font-size: 50px;
+  padding-top: 40px;
+  color: rgb(241, 108, 175);
+  font-weight: bold;
+  text-align: center;
+}
+
+.card2 .para-card2-txt {
+  text-align: center;
+  font-size: 30px;
+  padding: 2px;
+  color: orangered;
+}
+
+.card2 .button2-card2 {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2-card2 a {
+  height: 50px;
+  width: 120px;
+  padding: 10px 0 10px 0;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 40px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.8s ease-in-out;
+}
+
+.button2-card2 a:hover {
+  background-color: yellow;
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.partsec2items .card3 {
+  height: 600px;
+  width: 420px;
+  background-color: #83be9c;
+}
+
+.card3 a {
+  display: inline-block;
+}
+
+.card3 a img {
+  height: 50%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.card3 a img .card-image3 {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.card3 .card3-txt {
+  font-size: 50px;
+  padding-top: 40px;
+  color: rgb(241, 108, 175);
+  font-weight: bold;
+  text-align: center;
+}
+
+.card3 .para-card3-txt {
+  text-align: center;
+  padding: 2px;
+  font-size: 30px;
+  color: orangered;
+}
+
+.card3 .button3-card3 {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button3-card3 a {
+  height: 50px;
+  width: 120px;
+  padding: 10px 0 10px 0;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.8s ease-in-out;
+}
+
+.button3-card3 a:hover {
+  background-color: yellow;
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+/* Banner Section Part-3 */
+.sec-3 {
+  background-color: #0287d9;
+  height: 490px;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+.sec-3 .sectiondetails {
+  padding: 45px 0 45px 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectiondetails a {
+  display: inline-block;
+}
+
+.sectiondetails a img {
+  padding: 20px 0 20px 0;
+  height: 325px;
+  margin-left: 120px;
+  width: 440px;
+}
+
+.sectiondetails .sec-3textcontainer {
+  background-color: transparent;
+  margin-right: 170px;
+  height: 300px;
+  margin-bottom: 70px;
+  width: 700px;
+}
+
+.sec-3textcontainer .sec-3title {
+  font-size: 59px;
+  color: white;
+  margin-left: 20px;
+}
+
+.sec-3textcontainer .sec-3para-text {
+  font-size: 30px;
+  color: #90fee7;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.sec-3textcontainer .sec-3-button {
+  display: flex;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.sec-3-button a {
+  height: 50px;
+  width: 120px;
+  padding: 10px 0 10px 0;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ff6fce;
+  border-radius: 40px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.8s ease-in-out;
+}
+
+.sec-3-button a:hover {
+  background-color: brown;
+  color: yellow;
+  text-decoration: underline;
+}
+
+/* Social Media */
+.social-container .facebook-logo {
+  color: #1f68cf;
+  font-size: 37px;
+  position: fixed;
+  bottom: 500px;
+  right: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+a .facebook-logo:hover {
+  font-size: 50px;
+}
+
+.youtube-logo {
+  color: red;
+  font-size: 35px;
+  position: fixed;
+  bottom: 445px;
+  right: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+a .youtube-logo:hover {
+  font-size: 50px;
+}
+
+.whatsapp-logo {
+  color: rgb(44, 207, 19);
+  font-size: 35px;
+  position: fixed;
+  bottom: 395px;
+  right: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+a .whatsapp-logo:hover {
+  font-size: 50px;
+}
+
+.instagram-logo {
+  color: #ffdf9e, #ffc273, #e56969, #c1558b, #8a49a1;
+  font-size: 35px;
+  position: fixed;
+  bottom: 335px;
+  right: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+a .instagram-logo:hover {
+  font-size: 50px;
+}
+
+.linkedin-logo {
+  color: rgb(5, 5, 80);
+  font-size: 35px;
+  position: fixed;
+  bottom: 265px;
+  right: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+a .linkedin-logo:hover {
+  font-size: 50px;
+}
+
+.twitter-logo {
+  color: rgb(61, 184, 246);
+  font-size: 35px;
+  position: fixed;
+  bottom: 205px;
+  right: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+a .twitter-logo:hover {
+  font-size: 50px;
+}
+
+/* Banner Section Part-4 */
+.sec-4 {
+  background-color: rgb(253, 246, 246);
+  height: 450px;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+.sec-4 .sec-4details {
+  padding: 25px 0 25px 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sec-4details .sec-4detailslogoimg {
+  background-color: transparent;
+  height: 240px;
+  width: 260px;
+  margin-left: 180px;
+}
+
+.sec-4detailslogoimg a {
+  display: inline-block;
+}
+
+.sec-4detailslogoimg a img {
+  height: 180px;
+  margin-left: 20px;
+  border-radius: 60px;
+}
+
+.sec-4details .sec-4detailslogoimg-paratext {
+  font-size: 20px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.sec-4 ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sec-4 ul li {
+  list-style-type: none;
+}
+
+.sec-4 .items-sections1 .mb-3 ul li a {
+  font-size: 0px;
+  text-align: left;
+}
+
+/* Footer */
+.main-foot {
+  padding: 20px 0 20px 0;
+  background-color: #bae3db;
+}
+
+.foot-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.foot-list li {
+  list-style-type: none;
+}
+
+.foot-list li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: brown;
+  transition: all 0.5s ease-in-out;
+}
+
+.foot-list li a:hover {
+  color: #3b0100;
+}
